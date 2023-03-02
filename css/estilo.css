@@ -1,0 +1,146 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* FONDOS */
+
+body {
+    background-color: #daf4e7;
+}
+
+/* textos */
+
+h1 {
+    text-align: center;
+    color: #0059f3;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 10px;
+}
+
+/* header */
+.logo{
+    width: 100px;
+    }
+    
+    .fondoheader{
+        background-color: #ffffff;
+    }
+    
+    li a{
+        text-transform: uppercase;
+        font-weight: 1000;
+        color: black;
+    }
+    
+    /* botones */
+    
+    
+    .botonmio{
+        background-color: #007bc6;
+        color: #ffffff;
+        width: 150px;
+    }
+    
+    .botonmio:hover{
+        background-color: #ffffff;
+        color: #007bc6;
+        border: 1px solid black;
+    }
+     
+    /* superior */
+    
+    
+    .superior{
+    height: 30px;
+    background-color: #000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .superior p {
+        font-weight: bold ;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    
+    
+    /* inferior */
+    
+    .inferior{
+        background-color: #007bc6;
+        height: 40px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .inferior p {
+        margin-bottom: 0;
+    }
+    
+    .inferior a {
+        color: #ffffff;
+    
+    }
+    
+    .banner{
+        background-image: url(../img/foto\ de\ motos\ .png);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+    
+    .banner h1 {
+        color: #000;
+        font-size: 3rem;
+        text-align: left;
+        font-weight: 900;
+        margin-top: 150px;
+    }
+    
+    .banner p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 20px;
+    }
+
+    /* footer */
+
+    footer img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    footer {
+        display: flex;
+        background-color: rgba(42, 132, 216, 0.671);
+        padding: 28px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    footer p {
+        font-weight: 600;
+    }
+    
+    .footerlogo {
+        display: flex;
+        gap: 30px;
+    }
